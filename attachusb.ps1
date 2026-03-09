@@ -6,7 +6,7 @@ if (-not $currentPrincipal.IsInRole([Security.Principal.WindowsBuiltinRole]::Adm
 }
 
 # Configuration
-$deviceNames = @("USB Serial Device")
+$deviceNames = @("USB Serial Device", "Board in FS mode")
 $attachedBusIds = @()
 
 try {
